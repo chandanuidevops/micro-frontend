@@ -18,6 +18,8 @@ module.exports = {
         // historyApiFallback: true
     },
     output: {
+        filename: "[name].js",
+        path: path.resolve(__dirname, "dist"), // 👈 THIS IS CRITICAL
         publicPath: "auto",
         clean: true,
     },
