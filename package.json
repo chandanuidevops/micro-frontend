@@ -1,0 +1,9 @@
+{
+    "name": "micro-frontend",
+    "scripts": {
+        "start": "concurrently \"npm --prefix container start\" \"npm --prefix app1 start\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
